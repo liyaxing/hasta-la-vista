@@ -1,0 +1,55 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Hasta La Vista",
+        "submenu": [
+          {
+            "label": "I'll be back",
+            "command": "hasta-la-vista:i'll be back"
+          },
+          {
+            "label": "I'm coming",
+            "command": "hasta-la-vista:i'm coming"
+          },
+          {
+            "label": "Sayonara",
+            "command": "hasta-la-vista:sayonara"
+          },
+          {
+            "label": "Hasta la vista",
+            "command": "hasta-la-vista:hasta la vista"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Hasta La Vista",
+          "submenu": [
+            {
+              "label": "I'll be back",
+              "command": "hasta-la-vista:i'll be back"
+            },
+            {
+              "label": "I'm coming",
+              "command": "hasta-la-vista:i'm coming"
+            },
+            {
+              "label": "Sayonara",
+              "command": "hasta-la-vista:sayonara"
+            },
+            {
+              "label": "Hasta la vista",
+              "command": "hasta-la-vista:hasta la vista"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
